@@ -11,6 +11,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    private fun celsiusToFahrenheit(celsius: Double): Double{
+        val tempF: Double = (celsius * (9.0 / 5.0)) + 32
+        return tempF
+    }
+
+    private fun fahrenheitToCelsius(fahrenheit: Double): Double{
+        val tempC: Double = (fahrenheit - 32) * 5.0 / 9.0
+        return tempC
+    }
 
 
 
