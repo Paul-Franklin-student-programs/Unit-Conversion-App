@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -37,14 +38,13 @@
             android:text=""
             android:layout_marginTop="8dp" />
 
-
-
-
+        <!-- Fahrenheit to Celsius -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Enter Fahrenheit:"
             android:textSize="16sp"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp" />
 
         <EditText
@@ -56,6 +56,137 @@
 
         <Button
             android:id="@+id/btn_f_to_c"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert to Celsius"
+            android:layout_marginTop="8dp" />
 
+        <TextView
+            android:id="@+id/tv_f_to_c_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="8dp" />
+
+        <!-- Pounds to Kilograms -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Pounds:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_pounds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Pounds" />
+
+        <Button
+            android:id="@+id/btn_p_to_kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert to Kilograms"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_p_to_kg_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="8dp" />
+
+        <!-- Kilograms to Pounds -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Kilograms:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_kilograms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Kilograms" />
+
+        <Button
+            android:id="@+id/btn_kg_to_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert to Pounds"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_kg_to_p_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="8dp" />
+
+        <!-- Meters to Feet -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Meters:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_meters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Meters" />
+
+        <Button
+            android:id="@+id/btn_m_to_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert to Feet"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_m_to_f_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="8dp" />
+
+        <!-- Feet to Meters -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Feet:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_feet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Feet" />
+
+        <Button
+            android:id="@+id/btn_f_to_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert to Meters"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_f_to_m_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
