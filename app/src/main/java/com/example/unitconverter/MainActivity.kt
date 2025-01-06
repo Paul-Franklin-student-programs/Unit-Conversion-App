@@ -21,6 +21,25 @@ class MainActivity : AppCompatActivity() {
         return tempC
     }
 
+    private fun kilogramsToPounds(kilograms: Double): Double{
+        val pounds: Double = kilograms * 2.20462
+        return pounds
+    }
+
+    private fun poundsToKilograms(pounds: Double): Double{
+        val kilograms: Double = pounds * 0.45359237
+        return kilograms
+    }
+
+    private fun metersToFeet(meters: Double): Double{
+        val feet: Double = meters * 3.280839895
+        return feet
+    }
+
+    private fun feetToMeters(feet: Double): Double{
+        val meters: Double = feet * 0.304
+        return meters
+    }
 
 
 
