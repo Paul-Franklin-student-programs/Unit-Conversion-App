@@ -16,16 +16,16 @@ fun kilogramsToPounds(kilograms: Double): Double{
 }
 
 fun poundsToKilograms(pounds: Double): Double{
-    val kilograms: Double = pounds * 0.453
+    val kilograms: Double = pounds * 0.45359237
     return kilograms
 }
 
 fun metersToFeet(meters: Double): Double{
-    val feet: Double = meters * 3.28
+    val feet: Double = meters * 3.28084
     return feet
 }
 
 fun feetToMeters(feet: Double): Double{
-    val meters: Double = feet * 0.304
+    val meters: Double = feet * 0.3048
     return meters
 }
